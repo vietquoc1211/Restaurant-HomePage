@@ -1,0 +1,11 @@
+.slick-dots li button:before {
+    font-size: 12px; /* حجم النقطة */
+    color: gray; /* اللون الأساسي للنقطة */
+    opacity: 1; 
+    margin-top: 17px;
+    
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: rgb(217, 35, 35); /* اللون عند تحديد النقطة */
+  }

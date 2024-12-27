@@ -1,0 +1,46 @@
+.tablebtn{
+    padding: 10px 25px;
+    border-color: transparent;
+    border-radius: 1px 35px 35px 35px;
+}
+
+.pichome img{
+    filter: drop-shadow(rgba(0, 0, 0, 0.667) 4px 4px 9px);
+}
+.pichome img:hover{
+    animation-name: shake;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake{
+    0%{transform: translate(1px,1px) rotate(0deg);}
+    10%{transform: translate(-1px,-2px) rotate(-1deg);}
+    20%{transform: translate(-3px,0px) rotate(1deg);}
+    30%{transform: translate(3px,2px) rotate(0deg);}
+    40%{transform: translate(1px,-1px) rotate(1deg);}
+    50%{transform: translate(-1px,2px) rotate(-1deg);}
+    60%{transform: translate(-3px,1px) rotate(0deg);}
+    70%{transform: translate(3px,1px) rotate(-1deg);}
+    80%{transform: translate(-1px,-1px) rotate(1deg);}
+    90%{transform: translate(1px,2px) rotate(0deg);}
+    100%{transform: translate(1px,1px) rotate(0deg);}
+}
+.pra h2{
+    font-family: "Amatic SC", sans-serif;
+}
+.icon2{
+    background-image:linear-gradient( to right,rgb(201, 5, 5) 0 50%, transparent 50% 100% );;
+    height: 50px;
+    width: 50px;
+}
+.icon2::after{
+    content: "";
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

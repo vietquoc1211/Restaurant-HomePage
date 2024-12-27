@@ -1,0 +1,42 @@
+.footer{
+    background-image:linear-gradient(#0009, #0009), url("../../assets/textured-metal-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
+    box-shadow: 0px -1px 5px #0007;
+}
+.logo-pic h2{
+    font-family: "Open Sans", system-ui, -apple-system;
+}
+.logo-pic h2::after{
+    content: "";
+    position:absolute;
+    width: 5px;
+    height: 5px;
+    top:27px;
+    background-color: rgb(208, 4, 4);
+    border-radius:50%;
+}
+.END p{
+    font-family:"Open Sans", system-ui, -apple-system; 
+    font-size: 16px;
+}
+.about h4::before{
+    content: "";
+    position: absolute;
+    width: 270%;
+    height: 1.5px;
+    bottom: -3px;
+    left: -105px;
+    background-color: #989696;
+}
+.links2 ul li{
+    transition: 0.7s;
+    transition-duration: 0.9s;
+}
+footer .links2 ul li:hover{
+    transform: translateX(5px);
+    background-color: #222222f2;
+    width: 200px;
+    padding: 4px;
+}

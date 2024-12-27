@@ -1,0 +1,76 @@
+.liketitle h3{
+    font-family: "Amatic SC", sans-serif;
+}
+/* From Uiverse.io by cssbuttons-io */ 
+.noselect {
+    width: 80px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+  .noselect, .noselect span {
+    transition: 200ms;
+   }
+   
+  .noselect .text {
+    transform: translateX(9px);
+    color: white;
+    font-weight:500;
+    -webkit-transform: translateX(9px);
+    -moz-transform: translateX(9px);
+    -ms-transform: translateX(9px);
+    -o-transform: translateX(9px);
+}
+   
+  .noselect .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(61px);
+    height: 30px;
+    width: 15px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: translateX(61px);
+    -moz-transform: translateX(61px);
+    -ms-transform: translateX(61px);
+    -o-transform: translateX(61px);
+}
+   
+   .noselect svg {
+    width: 17px;
+    fill: #eee;
+   }
+   
+ .noselect:hover {
+    background: #ff3636;
+   }
+   
+   .noselect:hover .text {
+    color: transparent;
+   }
+   
+  .noselect:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(-33px);
+    -webkit-transform: translateX(-33px);
+    -moz-transform: translateX(-33px);
+    -ms-transform: translateX(-33px);
+    -o-transform: translateX(-33px);
+}
+   
+.noselect:focus {
+    outline: none;
+   }
+   
+ .noselect:active .icon svg {
+    transform: scale(0.8);
+   }

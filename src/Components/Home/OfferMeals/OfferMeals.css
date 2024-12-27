@@ -1,0 +1,32 @@
+.customBorder {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    transform: translate(50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: #FFD700;
+    border-radius: 50%;
+    clip-path: path("M 30,0 C 38,5 45,10 50,20  C 55,30 50,40 45,50  C 40,60 30,65 20,60  C 10,55 5,50 0,40  C -5,30 0,20 5,10  C 10,5 22,-5 30,0 Z");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+  }
+  .titleCat{
+    font-family: "Amatic SC", sans-serif;
+  }
+  .titleCat h3{
+    position: relative;
+  }
+  .titleCat h3::after{
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 2px;
+    background-color: black;
+    top: 32px;
+     left: 152px;
+  }

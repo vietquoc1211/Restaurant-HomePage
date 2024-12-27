@@ -1,0 +1,12 @@
+.mylink::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2.5px;
+    background-color: rgb(197, 5, 5);
+    bottom: -3px;
+    transition: 0.6s;
+}
+.mylink:hover::before{
+    width: 90%;
+}
